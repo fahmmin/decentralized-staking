@@ -7,7 +7,7 @@ import { GenericContractsDeclaration } from "~~/utils/scaffold-eth/contract";
 const deployedContracts = {
   31337: {
     ExampleExternalContract: {
-      address: "0x4C2F7092C2aE51D986bEFEe378e50BD4dB99C901",
+      address: "0x5FbDB2315678afecb367f032d93F642f64180aa3",
       abi: [
         {
           inputs: [],
@@ -33,7 +33,7 @@ const deployedContracts = {
       inheritedFunctions: {},
     },
     Staker: {
-      address: "0x7A9Ec1d04904907De0ED7b6839CcdD59c3716AC9",
+      address: "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
       abi: [
         {
           inputs: [
@@ -79,6 +79,19 @@ const deployedContracts = {
               internalType: "uint256",
               name: "",
               type: "uint256",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "completed",
+          outputs: [
+            {
+              internalType: "bool",
+              name: "",
+              type: "bool",
             },
           ],
           stateMutability: "view",
@@ -206,7 +219,7 @@ const deployedContracts = {
       inheritedFunctions: {},
     },
     Staker: {
-      address: "0x033f6d5319C3af05c147513F277846a10fefaeEc",
+      address: "0x33402d8dd834dae7a3b89E990d55f3d43E39E4A1",
       abi: [
         {
           inputs: [
@@ -223,15 +236,15 @@ const deployedContracts = {
           anonymous: false,
           inputs: [
             {
-              indexed: true,
+              indexed: false,
               internalType: "address",
-              name: "sender",
+              name: "",
               type: "address",
             },
             {
               indexed: false,
               internalType: "uint256",
-              name: "amount",
+              name: "",
               type: "uint256",
             },
           ],
